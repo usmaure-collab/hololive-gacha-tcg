@@ -1,0 +1,47 @@
+.split-layout {
+  display: flex;
+  height: calc(100vh - 180px);
+  gap: 24px;
+}
+.collection-pane, .deck-pane {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.pane-header {
+  padding: 16px;
+  background: rgba(255,255,255,0.05);
+  border-bottom: 1px solid var(--glass-border);
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pane-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+}
+.mini-card {
+  width: 100px;
+  height: 140px;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.1s;
+}
+.mini-card:hover {
+  transform: scale(1.05);
+  z-index: 10;
+}
+.deck-section-title {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #a1a1aa;
+  text-transform: uppercase;
+  font-weight: bold;
+}

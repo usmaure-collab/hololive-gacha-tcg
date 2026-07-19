@@ -1,0 +1,35 @@
+Reporte de Errores en Imágenes (77 cartas encontradas)
+------------------------------------------------------
+
+He analizado las 1153 cartas y he encontrado 77 cartas cuyas imágenes están devolviendo error (404 o 403 Forbidden). Al inspeccionar las URLs, he identificado 4 patrones principales que están rompiendo los enlaces. Aquí está el diagnóstico de por qué fallan:
+
+1. Cartas Cheer (hY01 - hY06) con Sufijos Falsos
+El script de limpieza generó URLs como:
+- https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hY01/EN_hY01-001_C.png
+- https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hY01/EN_hY01-001_SY.png
+Problema: Muchas cartas "Cheer" (Energías base) oficiales NO llevan sufijo de rareza en su nombre de archivo de imagen, o bien, sólo existe la versión normal y la base de datos está intentando buscar duplicados paralelos (SY) que no existen en el servidor oficial.
+Solución: En `clean-database.cjs`, debemos forzar que las cartas de expansión 'hY' (y rarity 'C') no lleven el `_C` al final de la URL de la imagen.
+
+2. Secret Rares (SEC) de hBP01
+El script generó URLs como:
+- https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-014_SEC.png
+- https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-037_SEC.png
+Problema: En el servidor inglés oficial, es posible que las cartas Secret Rare aún no hayan sido subidas, o que usen un prefijo/sufijo distinto al estándar (a veces las promocionales o SEC usan identificadores especiales o simplemente se omiten del sitio web occidental temporalmente).
+Solución: Ocultar las cartas SEC si las imágenes no existen oficialmente, o mapear sus nombres manualmente si Hololive cambió el formato para SECs.
+
+3. Cartas de Starter Decks (hSD)
+Ejemplos fallidos:
+- https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hSD02/EN_hSD02-009_SR.png
+- https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hSD08/EN_hSD08-002_U.png
+Problema: Para cartas de mazos preconstruidos (Starter Decks), los nombres oficiales de imagen suelen omitir la rareza (ej. _U, _SR), porque todas las cartas de ese mazo tienen la misma estructura. La URL debería ser probablemente `EN_hSD02-009.png` en lugar de `EN_hSD02-009_SR.png`.
+Solución: Eliminar los sufijos de rareza de la generación de URLs para todas las expansiones que comiencen con `hSD`.
+
+4. UR/OUR Duplicados (hBP01-060)
+- https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-060_UR.png
+Problema: Se está agregando el sufijo "_UR" y "_RR" a cartas que posiblemente no lo lleven, o las variantes de mayor rareza de esa carta específica tienen otra nomenclatura de archivo.
+
+Recomendación de Fix:
+Debemos actualizar el archivo `clean-database.cjs` para agregar excepciones en la creación del `suffixStr`:
+- Si la expansión es `hY`, omitir el sufijo.
+- Si la expansión comienza con `hSD`, omitir el sufijo de rareza.
+- Verificar si las SEC realmente existen en el servidor inglés.

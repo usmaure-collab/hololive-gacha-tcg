@@ -1,0 +1,3062 @@
+[
+  {
+    "id": "hBP03-015",
+    "name": "Todoroki Hajime",
+    "rarity": "RR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-015_RR.png"
+  },
+  {
+    "id": "hBP03-031",
+    "name": "Akai Haato",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "100"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-031_C.png"
+  },
+  {
+    "id": "hBP03-032",
+    "name": "Akai Haato",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "170"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-032_C.png"
+  },
+  {
+    "id": "hBP03-033",
+    "name": "Akai Haato",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "120"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-033_U.png"
+  },
+  {
+    "id": "hBP03-034",
+    "name": "Akai Haato",
+    "rarity": "RR",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "240"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-034_RR_02.png"
+  },
+  {
+    "id": "hBP03-036",
+    "name": "Takanashi Kiara",
+    "rarity": "R",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "140"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-036_R.png"
+  },
+  {
+    "id": "hBP03-080",
+    "name": "Otonose Kanade",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-080_C.png"
+  },
+  {
+    "id": "hBP03-081",
+    "name": "Otonose Kanade",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "180"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-081_C.png"
+  },
+  {
+    "id": "hBP03-082",
+    "name": "Otonose Kanade",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "160"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-082_U.png"
+  },
+  {
+    "id": "hBP03-083",
+    "name": "Otonose Kanade",
+    "rarity": "R",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [],
+      "hp": "250"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-083_R.png"
+  },
+  {
+    "id": "hBP03-084",
+    "name": "Gorgeous PC",
+    "rarity": "U",
+    "card_type": "Support・Item・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-084_U.png"
+  },
+  {
+    "id": "hBP03-085",
+    "name": "Super PC",
+    "rarity": "U",
+    "card_type": "Support・Item・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-085_U.png"
+  },
+  {
+    "id": "hBP03-086",
+    "name": "Dual-Monitor PC",
+    "rarity": "C",
+    "card_type": "Support・Item・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-086_C.png"
+  },
+  {
+    "id": "hBP03-087",
+    "name": "Call and Response",
+    "rarity": "C",
+    "card_type": "Support・Event",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-087_C.png"
+  },
+  {
+    "id": "hBP03-089",
+    "name": "Fan Meeting",
+    "rarity": "U",
+    "card_type": "Support・Event・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-089_U.png"
+  },
+  {
+    "id": "hBP03-090",
+    "name": "Can You Do the hololive?",
+    "rarity": "U",
+    "card_type": "Support・Event",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-090_U.png"
+  },
+  {
+    "id": "hBP03-091",
+    "name": "hololive Indonesia Gen 1",
+    "rarity": "U",
+    "card_type": "Support・Event・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-091_U.png"
+  },
+  {
+    "id": "hBP03-092",
+    "name": "hololive Gen 0",
+    "rarity": "U",
+    "card_type": "Support・Event・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-092_U.png"
+  },
+  {
+    "id": "hBP03-093",
+    "name": "hololive Gen 4",
+    "rarity": "U",
+    "card_type": "Support・Event・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-093_U.png"
+  },
+  {
+    "id": "hBP03-094",
+    "name": "FPS Stream",
+    "rarity": "U",
+    "card_type": "Support・Event・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-094_U.png"
+  },
+  {
+    "id": "hBP03-095",
+    "name": "holoCap",
+    "rarity": "C",
+    "card_type": "Support・Tool",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-095_C.png"
+  },
+  {
+    "id": "hBP03-096",
+    "name": "Rifle",
+    "rarity": "U",
+    "card_type": "Support・Tool",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-096_U.png"
+  },
+  {
+    "id": "hBP03-097",
+    "name": "Recorder",
+    "rarity": "C",
+    "card_type": "Support・Tool",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-097_C.png"
+  },
+  {
+    "id": "hBP03-098",
+    "name": "Kintoki",
+    "rarity": "U",
+    "card_type": "Support・Mascot",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-098_U.png"
+  },
+  {
+    "id": "hBP03-099",
+    "name": "Maguchi",
+    "rarity": "C",
+    "card_type": "Support・Mascot",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-099_C.png"
+  },
+  {
+    "id": "hBP03-100",
+    "name": "Pero",
+    "rarity": "C",
+    "card_type": "Support・Mascot",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-100_C.png"
+  },
+  {
+    "id": "hBP03-101",
+    "name": "Bibi",
+    "rarity": "C",
+    "card_type": "Support・Mascot",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-101_C.png"
+  },
+  {
+    "id": "hBP03-102",
+    "name": "Futoinu",
+    "rarity": "U",
+    "card_type": "Support・Mascot",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-102_U_02.png"
+  },
+  {
+    "id": "hBP03-103",
+    "name": "Hosoinu",
+    "rarity": "C",
+    "card_type": "Support・Mascot",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-103_C.png"
+  },
+  {
+    "id": "hBP03-104",
+    "name": "Riscot",
+    "rarity": "C",
+    "card_type": "Support・Mascot",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-104_C.png"
+  },
+  {
+    "id": "hBP03-106",
+    "name": "SSRB",
+    "rarity": "C",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-106_C.png"
+  },
+  {
+    "id": "hBP03-107",
+    "name": "35P",
+    "rarity": "U",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-107_U.png"
+  },
+  {
+    "id": "hBP03-108",
+    "name": "Haaton",
+    "rarity": "C",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-108_C.png"
+  },
+  {
+    "id": "hBP03-109",
+    "name": "Ruffians",
+    "rarity": "C",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-109_C.png"
+  },
+  {
+    "id": "hBP03-111",
+    "name": "Koronesky",
+    "rarity": "C",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-111_C.png"
+  },
+  {
+    "id": "hBP03-112",
+    "name": "Watamates",
+    "rarity": "U",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-112_U.png"
+  },
+  {
+    "id": "hBP03-113",
+    "name": "Risuners",
+    "rarity": "C",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-113_C.png"
+  },
+  {
+    "id": "hBP03-001",
+    "name": "Himemori Luna",
+    "rarity": "OSR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-001_OSR.png"
+  },
+  {
+    "id": "hBP03-002",
+    "name": "Shishiro Botan",
+    "rarity": "OSR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-002_OSR.png"
+  },
+  {
+    "id": "hBP03-003",
+    "name": "Sakura Miko",
+    "rarity": "OSR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-003_OSR.png"
+  },
+  {
+    "id": "hBP03-004",
+    "name": "FUWAMOCO",
+    "rarity": "OSR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-004_OSR.png"
+  },
+  {
+    "id": "hBP03-005",
+    "name": "Tokoyami Towa",
+    "rarity": "OSR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-005_OSR.png"
+  },
+  {
+    "id": "hBP03-006",
+    "name": "Inugami Korone",
+    "rarity": "OSR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [],
+      "hp": "6"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-006_OSR_02.png"
+  },
+  {
+    "id": "hBP03-007",
+    "name": "Tsunomaki Watame",
+    "rarity": "OSR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-007_OSR.png"
+  },
+  {
+    "id": "hBP03-008",
+    "name": "Ayunda Risu",
+    "rarity": "OSR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-008_OSR.png"
+  },
+  {
+    "id": "hBP03-009",
+    "name": "Himemori Luna",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "90"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-009_C.png"
+  },
+  {
+    "id": "hBP03-010",
+    "name": "Himemori Luna",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "80"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-010_U.png"
+  },
+  {
+    "id": "hBP03-011",
+    "name": "Himemori Luna",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "150"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-011_C.png"
+  },
+  {
+    "id": "hBP03-012",
+    "name": "Himemori Luna",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "120"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-012_U.png"
+  },
+  {
+    "id": "hBP03-013",
+    "name": "Himemori Luna",
+    "rarity": "R",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "110"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-013_R.png"
+  },
+  {
+    "id": "hBP03-014",
+    "name": "Himemori Luna",
+    "rarity": "RR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "180"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-014_RR.png"
+  },
+  {
+    "id": "hBP03-016",
+    "name": "Shishiro Botan",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "100"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-016_C.png"
+  },
+  {
+    "id": "hBP03-017",
+    "name": "Shishiro Botan",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "80"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-017_U.png"
+  },
+  {
+    "id": "hBP03-018",
+    "name": "Shishiro Botan",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "160"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-018_C.png"
+  },
+  {
+    "id": "hBP03-019",
+    "name": "Shishiro Botan",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-019_U.png"
+  },
+  {
+    "id": "hBP03-020",
+    "name": "Shishiro Botan",
+    "rarity": "R",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "110"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-020_R.png"
+  },
+  {
+    "id": "hBP03-021",
+    "name": "Shishiro Botan",
+    "rarity": "RR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-021_RR.png"
+  },
+  {
+    "id": "hBP03-022",
+    "name": "Aki Rosenthal",
+    "rarity": "R",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "250"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-022_R.png"
+  },
+  {
+    "id": "hBP03-023",
+    "name": "Usada Pekora",
+    "rarity": "R",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "230"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-023_R.png"
+  },
+  {
+    "id": "hBP03-024",
+    "name": "Kazama Iroha",
+    "rarity": "RR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "200"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-024_RR.png"
+  },
+  {
+    "id": "hBP03-025",
+    "name": "Sakura Miko",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "100"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-025_C.png"
+  },
+  {
+    "id": "hBP03-026",
+    "name": "Sakura Miko",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "80"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-026_U.png"
+  },
+  {
+    "id": "hBP03-027",
+    "name": "Sakura Miko",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "150"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-027_C.png"
+  },
+  {
+    "id": "hBP03-028",
+    "name": "Sakura Miko",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-028_U.png"
+  },
+  {
+    "id": "hBP03-029",
+    "name": "Sakura Miko",
+    "rarity": "R",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-029_R.png"
+  },
+  {
+    "id": "hBP03-030",
+    "name": "Sakura Miko",
+    "rarity": "RR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "200"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-030_RR_02.png"
+  },
+  {
+    "id": "hBP03-035",
+    "name": "Takane Lui",
+    "rarity": "R",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "240"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-035_R.png"
+  },
+  {
+    "id": "hBP03-037",
+    "name": "Mococo Abyssgard",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "80"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-037_C.png"
+  },
+  {
+    "id": "hBP03-038",
+    "name": "Mococo Abyssgard",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-038_C.png"
+  },
+  {
+    "id": "hBP03-039",
+    "name": "Mococo Abyssgard",
+    "rarity": "R",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "240"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-039_02_R.png"
+  },
+  {
+    "id": "hBP03-040",
+    "name": "Fuwawa Abyssgard",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "100"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-040_C.png"
+  },
+  {
+    "id": "hBP03-041",
+    "name": "Fuwawa Abyssgard",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "160"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-041_02_C.png"
+  },
+  {
+    "id": "hBP03-042",
+    "name": "Fuwawa Abyssgard",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "140"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-042_U.png"
+  },
+  {
+    "id": "hBP03-043",
+    "name": "Fuwawa Abyssgard",
+    "rarity": "RR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-043_RR.png"
+  },
+  {
+    "id": "hBP03-044",
+    "name": "Hoshimachi Suisei",
+    "rarity": "R",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "150"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-044_R.png"
+  },
+  {
+    "id": "hBP03-045",
+    "name": "Kobo Kanaeru",
+    "rarity": "R",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "230"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-045_R.png"
+  },
+  {
+    "id": "hBP03-046",
+    "name": "Hiodoshi Ao",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "100"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-046_C.png"
+  },
+  {
+    "id": "hBP03-047",
+    "name": "Hiodoshi Ao",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "170"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-047_C.png"
+  },
+  {
+    "id": "hBP03-048",
+    "name": "Hiodoshi Ao",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-048_U.png"
+  },
+  {
+    "id": "hBP03-049",
+    "name": "Hiodoshi Ao",
+    "rarity": "R",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "230"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-049_R.png"
+  },
+  {
+    "id": "hBP03-050",
+    "name": "FUWAMOCO",
+    "rarity": "R",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "150"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-050_02_R.png"
+  },
+  {
+    "id": "hBP03-051",
+    "name": "Tokoyami Towa",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "110"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-051_C.png"
+  },
+  {
+    "id": "hBP03-052",
+    "name": "Tokoyami Towa",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "80"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-052_U.png"
+  },
+  {
+    "id": "hBP03-053",
+    "name": "Tokoyami Towa",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "170"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-053_C.png"
+  },
+  {
+    "id": "hBP03-054",
+    "name": "Tokoyami Towa",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "140"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-054_U.png"
+  },
+  {
+    "id": "hBP03-055",
+    "name": "Tokoyami Towa",
+    "rarity": "R",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-055_R.png"
+  },
+  {
+    "id": "hBP03-056",
+    "name": "Tokoyami Towa",
+    "rarity": "RR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-056_RR.png"
+  },
+  {
+    "id": "hBP03-057",
+    "name": "Robocosan",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "100"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-057_C.png"
+  },
+  {
+    "id": "hBP03-058",
+    "name": "Robocosan",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "170"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-058_C.png"
+  },
+  {
+    "id": "hBP03-059",
+    "name": "Robocosan",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-059_U.png"
+  },
+  {
+    "id": "hBP03-060",
+    "name": "Robocosan",
+    "rarity": "R",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "200"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-060_R.png"
+  },
+  {
+    "id": "hBP03-061",
+    "name": "Inugami Korone",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "120"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-061_C.png"
+  },
+  {
+    "id": "hBP03-062",
+    "name": "Inugami Korone",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "100"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-062_U.png"
+  },
+  {
+    "id": "hBP03-063",
+    "name": "Inugami Korone",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "200"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-063_C.png"
+  },
+  {
+    "id": "hBP03-064",
+    "name": "Inugami Korone",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "160"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-064_U.png"
+  },
+  {
+    "id": "hBP03-065",
+    "name": "Inugami Korone",
+    "rarity": "R",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "150"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-065_R.png"
+  },
+  {
+    "id": "hBP03-066",
+    "name": "Inugami Korone",
+    "rarity": "RR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "210"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-066_RR.png"
+  },
+  {
+    "id": "hBP03-067",
+    "name": "Tsunomaki Watame",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "110"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-067_C.png"
+  },
+  {
+    "id": "hBP03-068",
+    "name": "Tsunomaki Watame",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "90"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-068_U.png"
+  },
+  {
+    "id": "hBP03-069",
+    "name": "Tsunomaki Watame",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-069_C.png"
+  },
+  {
+    "id": "hBP03-070",
+    "name": "Tsunomaki Watame",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-070_U.png"
+  },
+  {
+    "id": "hBP03-071",
+    "name": "Tsunomaki Watame",
+    "rarity": "R",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "160"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-071_R.png"
+  },
+  {
+    "id": "hBP03-072",
+    "name": "Tsunomaki Watame",
+    "rarity": "RR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "200"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-072_RR.png"
+  },
+  {
+    "id": "hBP03-073",
+    "name": "Ayunda Risu",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "110"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-073_C.png"
+  },
+  {
+    "id": "hBP03-074",
+    "name": "Ayunda Risu",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "80"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-074_U.png"
+  },
+  {
+    "id": "hBP03-075",
+    "name": "Ayunda Risu",
+    "rarity": "C",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "170"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-075_C.png"
+  },
+  {
+    "id": "hBP03-076",
+    "name": "Ayunda Risu",
+    "rarity": "U",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "150"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-076_U.png"
+  },
+  {
+    "id": "hBP03-077",
+    "name": "Ayunda Risu",
+    "rarity": "R",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "160"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-077_R_02.png"
+  },
+  {
+    "id": "hBP03-078",
+    "name": "Ayunda Risu",
+    "rarity": "RR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-078_RR.png"
+  },
+  {
+    "id": "hBP03-079",
+    "name": "Shiranui Flare",
+    "rarity": "RR",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [],
+      "hp": "240"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-079_RR.png"
+  },
+  {
+    "id": "hBP03-088",
+    "name": "Totsumachi",
+    "rarity": "U",
+    "card_type": "Support・Event・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-088_U.png"
+  },
+  {
+    "id": "hBP03-105",
+    "name": "Lu-knights",
+    "rarity": "U",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-105_U_02.png"
+  },
+  {
+    "id": "hBP03-110",
+    "name": "Roboser",
+    "rarity": "U",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-110_U.png"
+  },
+  {
+    "id": "hY01-001",
+    "name": "White Cheer",
+    "rarity": "C",
+    "card_type": "Cheer",
+    "attributes": {
+      "color": [
+        "White"
+      ]
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/EN_hY01-001_C.png"
+  },
+  {
+    "id": "hY02-001",
+    "name": "Green Cheer",
+    "rarity": "C",
+    "card_type": "Cheer",
+    "attributes": {
+      "color": [
+        "Green"
+      ]
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/EN_hY02-001_C.png"
+  },
+  {
+    "id": "hY03-001",
+    "name": "Red Cheer",
+    "rarity": "C",
+    "card_type": "Cheer",
+    "attributes": {
+      "color": [
+        "Red"
+      ]
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/EN_hY03-001_C.png"
+  },
+  {
+    "id": "hY04-001",
+    "name": "Blue Cheer",
+    "rarity": "C",
+    "card_type": "Cheer",
+    "attributes": {
+      "color": [
+        "Blue"
+      ]
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/EN_hY04-001_C.png"
+  },
+  {
+    "id": "hY05-001",
+    "name": "Purple Cheer",
+    "rarity": "C",
+    "card_type": "Cheer",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/EN_hY05-001_C.png"
+  },
+  {
+    "id": "hY06-001",
+    "name": "Yellow Cheer",
+    "rarity": "C",
+    "card_type": "Cheer",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/EN_hY06-001_C.png"
+  },
+  {
+    "id": "hBP03-015",
+    "name": "Todoroki Hajime",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-015_SR.png"
+  },
+  {
+    "id": "hBP03-015",
+    "name": "Todoroki Hajime",
+    "rarity": "UR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-015_UR.png"
+  },
+  {
+    "id": "hBP03-032",
+    "name": "Akai Haato",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "170"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-032_S.png"
+  },
+  {
+    "id": "hBP03-033",
+    "name": "Akai Haato",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "120"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-033_S.png"
+  },
+  {
+    "id": "hBP03-034",
+    "name": "Akai Haato",
+    "rarity": "SR",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "240"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-034_SR_02.png"
+  },
+  {
+    "id": "hBP03-034",
+    "name": "Akai Haato",
+    "rarity": "UR",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "240"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-034_UR_02.png"
+  },
+  {
+    "id": "hBP03-036",
+    "name": "Takanashi Kiara",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "140"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-036_SR.png"
+  },
+  {
+    "id": "hBP03-081",
+    "name": "Otonose Kanade",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "180"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-081_S.png"
+  },
+  {
+    "id": "hBP03-082",
+    "name": "Otonose Kanade",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "160"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-082_S.png"
+  },
+  {
+    "id": "hBP03-083",
+    "name": "Otonose Kanade",
+    "rarity": "SR",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [],
+      "hp": "250"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-083_SR.png"
+  },
+  {
+    "id": "hBP03-084",
+    "name": "Gorgeous PC",
+    "rarity": "S",
+    "card_type": "Support・Item・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-084_S.png"
+  },
+  {
+    "id": "hBP03-085",
+    "name": "Super PC",
+    "rarity": "S",
+    "card_type": "Support・Item・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-085_S.png"
+  },
+  {
+    "id": "hBP03-086",
+    "name": "Dual-Monitor PC",
+    "rarity": "S",
+    "card_type": "Support・Item・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-086_S.png"
+  },
+  {
+    "id": "hBP03-087",
+    "name": "Call and Response",
+    "rarity": "S",
+    "card_type": "Support・Event",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-087_S.png"
+  },
+  {
+    "id": "hBP03-088",
+    "name": "Totsumachi",
+    "rarity": "S",
+    "card_type": "Support・Event・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-088_S.png"
+  },
+  {
+    "id": "hBP03-089",
+    "name": "Fan Meeting",
+    "rarity": "S",
+    "card_type": "Support・Event・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-089_S.png"
+  },
+  {
+    "id": "hBP03-090",
+    "name": "Can You Do the hololive?",
+    "rarity": "S",
+    "card_type": "Support・Event",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-090_S.png"
+  },
+  {
+    "id": "hBP03-091",
+    "name": "hololive Indonesia Gen 1",
+    "rarity": "S",
+    "card_type": "Support・Event・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-091_S.png"
+  },
+  {
+    "id": "hBP03-092",
+    "name": "hololive Gen 0",
+    "rarity": "S",
+    "card_type": "Support・Event・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-092_S.png"
+  },
+  {
+    "id": "hBP03-093",
+    "name": "hololive Gen 4",
+    "rarity": "S",
+    "card_type": "Support・Event・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-093_S.png"
+  },
+  {
+    "id": "hBP03-094",
+    "name": "FPS Stream",
+    "rarity": "S",
+    "card_type": "Support・Event・LIMITED",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-094_S.png"
+  },
+  {
+    "id": "hBP03-095",
+    "name": "holoCap",
+    "rarity": "S",
+    "card_type": "Support・Tool",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-095_S.png"
+  },
+  {
+    "id": "hBP03-096",
+    "name": "Rifle",
+    "rarity": "S",
+    "card_type": "Support・Tool",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-096_S.png"
+  },
+  {
+    "id": "hBP03-097",
+    "name": "Recorder",
+    "rarity": "S",
+    "card_type": "Support・Tool",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-097_S.png"
+  },
+  {
+    "id": "hBP03-098",
+    "name": "Kintoki",
+    "rarity": "S",
+    "card_type": "Support・Mascot",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-098_S.png"
+  },
+  {
+    "id": "hBP03-099",
+    "name": "Maguchi",
+    "rarity": "S",
+    "card_type": "Support・Mascot",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-099_S.png"
+  },
+  {
+    "id": "hBP03-100",
+    "name": "Pero",
+    "rarity": "S",
+    "card_type": "Support・Mascot",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-100_S.png"
+  },
+  {
+    "id": "hBP03-101",
+    "name": "Bibi",
+    "rarity": "S",
+    "card_type": "Support・Mascot",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-101_S.png"
+  },
+  {
+    "id": "hBP03-102",
+    "name": "Futoinu",
+    "rarity": "S",
+    "card_type": "Support・Mascot",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-102_S_02.png"
+  },
+  {
+    "id": "hBP03-103",
+    "name": "Hosoinu",
+    "rarity": "S",
+    "card_type": "Support・Mascot",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-103_S.png"
+  },
+  {
+    "id": "hBP03-104",
+    "name": "Riscot",
+    "rarity": "S",
+    "card_type": "Support・Mascot",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-104_S.png"
+  },
+  {
+    "id": "hBP03-105",
+    "name": "Lu-knights",
+    "rarity": "S",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-105_S_02.png"
+  },
+  {
+    "id": "hBP03-106",
+    "name": "SSRB",
+    "rarity": "S",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-106_S.png"
+  },
+  {
+    "id": "hBP03-107",
+    "name": "35P",
+    "rarity": "S",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-107_S.png"
+  },
+  {
+    "id": "hBP03-108",
+    "name": "Haaton",
+    "rarity": "S",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-108_S.png"
+  },
+  {
+    "id": "hBP03-109",
+    "name": "Ruffians",
+    "rarity": "S",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-109_S.png"
+  },
+  {
+    "id": "hBP03-110",
+    "name": "Roboser",
+    "rarity": "S",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-110_S.png"
+  },
+  {
+    "id": "hBP03-111",
+    "name": "Koronesky",
+    "rarity": "S",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-111_S.png"
+  },
+  {
+    "id": "hBP03-112",
+    "name": "Watamates",
+    "rarity": "S",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-112_S.png"
+  },
+  {
+    "id": "hBP03-113",
+    "name": "Risuners",
+    "rarity": "S",
+    "card_type": "Support・Fan",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-113_S.png"
+  },
+  {
+    "id": "hSD05-009",
+    "name": "Todoroki Hajime",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "180"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hSD05-009_SR.png"
+  },
+  {
+    "id": "hY01-004",
+    "name": "White Cheer",
+    "rarity": "SY",
+    "card_type": "Cheer",
+    "attributes": {
+      "color": [
+        "White"
+      ]
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hY01-004_SY.png"
+  },
+  {
+    "id": "hY02-003",
+    "name": "Green Cheer",
+    "rarity": "SY",
+    "card_type": "Cheer",
+    "attributes": {
+      "color": [
+        "Green"
+      ]
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hY02-003_SY.png"
+  },
+  {
+    "id": "hY03-003",
+    "name": "Red Cheer",
+    "rarity": "SY",
+    "card_type": "Cheer",
+    "attributes": {
+      "color": [
+        "Red"
+      ]
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hY03-003_SY.png"
+  },
+  {
+    "id": "hY04-003",
+    "name": "Blue Cheer",
+    "rarity": "SY",
+    "card_type": "Cheer",
+    "attributes": {
+      "color": [
+        "Blue"
+      ]
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hY04-003_SY.png"
+  },
+  {
+    "id": "hY05-003",
+    "name": "Purple Cheer",
+    "rarity": "SY",
+    "card_type": "Cheer",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hY05-003_SY.png"
+  },
+  {
+    "id": "hY06-002",
+    "name": "Yellow Cheer",
+    "rarity": "SY",
+    "card_type": "Cheer",
+    "attributes": {
+      "color": []
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hY06-002_SY.png"
+  },
+  {
+    "id": "hBP03-001",
+    "name": "Himemori Luna",
+    "rarity": "OUR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-001_OUR.png"
+  },
+  {
+    "id": "hBP03-002",
+    "name": "Shishiro Botan",
+    "rarity": "OUR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-002_OUR.png"
+  },
+  {
+    "id": "hBP03-002",
+    "name": "Shishiro Botan",
+    "rarity": "SEC",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-002_SEC.png"
+  },
+  {
+    "id": "hBP03-003",
+    "name": "Sakura Miko",
+    "rarity": "OUR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-003_OUR.png"
+  },
+  {
+    "id": "hBP03-003",
+    "name": "Sakura Miko",
+    "rarity": "SEC",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-003_SEC.png"
+  },
+  {
+    "id": "hBP03-004",
+    "name": "FUWAMOCO",
+    "rarity": "OUR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-004_OUR.png"
+  },
+  {
+    "id": "hBP03-005",
+    "name": "Tokoyami Towa",
+    "rarity": "OUR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-005_OUR.png"
+  },
+  {
+    "id": "hBP03-005",
+    "name": "Tokoyami Towa",
+    "rarity": "SEC",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-005_SEC.png"
+  },
+  {
+    "id": "hBP03-006",
+    "name": "Inugami Korone",
+    "rarity": "OUR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [],
+      "hp": "6"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-006_OUR_02.png"
+  },
+  {
+    "id": "hBP03-007",
+    "name": "Tsunomaki Watame",
+    "rarity": "OUR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-007_OUR.png"
+  },
+  {
+    "id": "hBP03-007",
+    "name": "Tsunomaki Watame",
+    "rarity": "SEC",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-007_SEC.png"
+  },
+  {
+    "id": "hBP03-008",
+    "name": "Ayunda Risu",
+    "rarity": "OUR",
+    "card_type": "Oshi",
+    "attributes": {
+      "color": [],
+      "hp": "5"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-008_OUR.png"
+  },
+  {
+    "id": "hBP03-010",
+    "name": "Himemori Luna",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "80"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-010_S.png"
+  },
+  {
+    "id": "hBP03-011",
+    "name": "Himemori Luna",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "150"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-011_S.png"
+  },
+  {
+    "id": "hBP03-012",
+    "name": "Himemori Luna",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "120"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-012_S.png"
+  },
+  {
+    "id": "hBP03-013",
+    "name": "Himemori Luna",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "110"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-013_SR.png"
+  },
+  {
+    "id": "hBP03-014",
+    "name": "Himemori Luna",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "180"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-014_SR.png"
+  },
+  {
+    "id": "hBP03-014",
+    "name": "Himemori Luna",
+    "rarity": "UR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "White"
+      ],
+      "hp": "180"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-014_UR.png"
+  },
+  {
+    "id": "hBP03-017",
+    "name": "Shishiro Botan",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "80"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-017_S.png"
+  },
+  {
+    "id": "hBP03-018",
+    "name": "Shishiro Botan",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "160"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-018_S.png"
+  },
+  {
+    "id": "hBP03-019",
+    "name": "Shishiro Botan",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-019_S.png"
+  },
+  {
+    "id": "hBP03-020",
+    "name": "Shishiro Botan",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "110"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-020_SR.png"
+  },
+  {
+    "id": "hBP03-021",
+    "name": "Shishiro Botan",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-021_SR.png"
+  },
+  {
+    "id": "hBP03-021",
+    "name": "Shishiro Botan",
+    "rarity": "UR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-021_UR.png"
+  },
+  {
+    "id": "hBP03-022",
+    "name": "Aki Rosenthal",
+    "rarity": "SR",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "250"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-022_SR.png"
+  },
+  {
+    "id": "hBP03-023",
+    "name": "Usada Pekora",
+    "rarity": "SR",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "230"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-023_SR.png"
+  },
+  {
+    "id": "hBP03-024",
+    "name": "Kazama Iroha",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "200"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-024_SR.png"
+  },
+  {
+    "id": "hBP03-024",
+    "name": "Kazama Iroha",
+    "rarity": "UR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "200"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-024_UR.png"
+  },
+  {
+    "id": "hBP03-026",
+    "name": "Sakura Miko",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "80"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-026_S.png"
+  },
+  {
+    "id": "hBP03-027",
+    "name": "Sakura Miko",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "150"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-027_S.png"
+  },
+  {
+    "id": "hBP03-028",
+    "name": "Sakura Miko",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-028_S.png"
+  },
+  {
+    "id": "hBP03-029",
+    "name": "Sakura Miko",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-029_SR.png"
+  },
+  {
+    "id": "hBP03-030",
+    "name": "Sakura Miko",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "200"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-030_SR_02.png"
+  },
+  {
+    "id": "hBP03-030",
+    "name": "Sakura Miko",
+    "rarity": "UR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "200"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-030_UR_02.png"
+  },
+  {
+    "id": "hBP03-035",
+    "name": "Takane Lui",
+    "rarity": "SR",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "240"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-035_SR.png"
+  },
+  {
+    "id": "hBP03-038",
+    "name": "Mococo Abyssgard",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-038_S.png"
+  },
+  {
+    "id": "hBP03-039",
+    "name": "Mococo Abyssgard",
+    "rarity": "SR",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Red"
+      ],
+      "hp": "240"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-039_02_SR.png"
+  },
+  {
+    "id": "hBP03-041",
+    "name": "Fuwawa Abyssgard",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "160"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-041_02_S.png"
+  },
+  {
+    "id": "hBP03-042",
+    "name": "Fuwawa Abyssgard",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "140"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-042_S.png"
+  },
+  {
+    "id": "hBP03-043",
+    "name": "Fuwawa Abyssgard",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-043_SR.png"
+  },
+  {
+    "id": "hBP03-043",
+    "name": "Fuwawa Abyssgard",
+    "rarity": "UR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-043_UR.png"
+  },
+  {
+    "id": "hBP03-044",
+    "name": "Hoshimachi Suisei",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "150"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-044_SR.png"
+  },
+  {
+    "id": "hBP03-045",
+    "name": "Kobo Kanaeru",
+    "rarity": "SR",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "230"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-045_SR.png"
+  },
+  {
+    "id": "hBP03-047",
+    "name": "Hiodoshi Ao",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "170"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-047_S.png"
+  },
+  {
+    "id": "hBP03-048",
+    "name": "Hiodoshi Ao",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-048_S.png"
+  },
+  {
+    "id": "hBP03-049",
+    "name": "Hiodoshi Ao",
+    "rarity": "SR",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [
+        "Blue"
+      ],
+      "hp": "230"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-049_SR.png"
+  },
+  {
+    "id": "hBP03-050",
+    "name": "FUWAMOCO",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "150"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-050_02_SR.png"
+  },
+  {
+    "id": "hBP03-052",
+    "name": "Tokoyami Towa",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "80"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-052_S.png"
+  },
+  {
+    "id": "hBP03-053",
+    "name": "Tokoyami Towa",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "170"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-053_S.png"
+  },
+  {
+    "id": "hBP03-054",
+    "name": "Tokoyami Towa",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "140"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-054_S.png"
+  },
+  {
+    "id": "hBP03-055",
+    "name": "Tokoyami Towa",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-055_SR.png"
+  },
+  {
+    "id": "hBP03-056",
+    "name": "Tokoyami Towa",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-056_SR.png"
+  },
+  {
+    "id": "hBP03-056",
+    "name": "Tokoyami Towa",
+    "rarity": "UR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-056_UR.png"
+  },
+  {
+    "id": "hBP03-058",
+    "name": "Robocosan",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "170"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-058_S.png"
+  },
+  {
+    "id": "hBP03-059",
+    "name": "Robocosan",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-059_S.png"
+  },
+  {
+    "id": "hBP03-060",
+    "name": "Robocosan",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "200"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-060_SR.png"
+  },
+  {
+    "id": "hBP03-062",
+    "name": "Inugami Korone",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "100"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-062_S.png"
+  },
+  {
+    "id": "hBP03-063",
+    "name": "Inugami Korone",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "200"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-063_S.png"
+  },
+  {
+    "id": "hBP03-064",
+    "name": "Inugami Korone",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "160"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-064_S.png"
+  },
+  {
+    "id": "hBP03-065",
+    "name": "Inugami Korone",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "150"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-065_SR.png"
+  },
+  {
+    "id": "hBP03-066",
+    "name": "Inugami Korone",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "210"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-066_SR.png"
+  },
+  {
+    "id": "hBP03-066",
+    "name": "Inugami Korone",
+    "rarity": "UR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "210"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-066_UR.png"
+  },
+  {
+    "id": "hBP03-068",
+    "name": "Tsunomaki Watame",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "90"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-068_S.png"
+  },
+  {
+    "id": "hBP03-069",
+    "name": "Tsunomaki Watame",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-069_S.png"
+  },
+  {
+    "id": "hBP03-070",
+    "name": "Tsunomaki Watame",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "130"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-070_S.png"
+  },
+  {
+    "id": "hBP03-071",
+    "name": "Tsunomaki Watame",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "160"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-071_SR.png"
+  },
+  {
+    "id": "hBP03-072",
+    "name": "Tsunomaki Watame",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "200"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-072_SR.png"
+  },
+  {
+    "id": "hBP03-072",
+    "name": "Tsunomaki Watame",
+    "rarity": "UR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "200"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-072_UR.png"
+  },
+  {
+    "id": "hBP03-074",
+    "name": "Ayunda Risu",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "80"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-074_S.png"
+  },
+  {
+    "id": "hBP03-075",
+    "name": "Ayunda Risu",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "170"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-075_S.png"
+  },
+  {
+    "id": "hBP03-076",
+    "name": "Ayunda Risu",
+    "rarity": "S",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "150"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-076_S.png"
+  },
+  {
+    "id": "hBP03-077",
+    "name": "Ayunda Risu",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "160"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-077_SR_02.png"
+  },
+  {
+    "id": "hBP03-078",
+    "name": "Ayunda Risu",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-078_SR.png"
+  },
+  {
+    "id": "hBP03-078",
+    "name": "Ayunda Risu",
+    "rarity": "UR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "190"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-078_UR.png"
+  },
+  {
+    "id": "hBP03-079",
+    "name": "Shiranui Flare",
+    "rarity": "SR",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [],
+      "hp": "240"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-079_SR.png"
+  },
+  {
+    "id": "hBP03-079",
+    "name": "Shiranui Flare",
+    "rarity": "UR",
+    "card_type": "Buzz holomem",
+    "attributes": {
+      "color": [],
+      "hp": "240"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hBP03-079_UR.png"
+  },
+  {
+    "id": "hSD06-007",
+    "name": "Kazama Iroha",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [
+        "Green"
+      ],
+      "hp": "180"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hSD06-007_SR.png"
+  },
+  {
+    "id": "hSD07-009",
+    "name": "Shiranui Flare",
+    "rarity": "SR",
+    "card_type": "holomem",
+    "attributes": {
+      "color": [],
+      "hp": "180"
+    },
+    "expansion_id": "hBP03",
+    "image_url": "https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/EN_hSD07-009_SR.png"
+  }
+]
