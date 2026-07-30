@@ -1,8 +1,10 @@
 import { useState, useMemo, useEffect } from 'react';
+import { motion } from 'framer-motion';
 import { useInventoryStore } from '../store/useInventoryStore';
 import { useDeckStore } from '../store/useDeckStore';
 import cardsData from '../data/cards.json';
 import { validateDeck } from '../lib/deck-rules';
+import DeckFilters from '../features/deck-builder/DeckFilters';
 import '../features/deck-builder/deck.css';
 
 export default function DeckBuilder() {
@@ -10,6 +12,9 @@ export default function DeckBuilder() {
   const { decks, activeDeckId, createDeck, setActiveDeck, updateDeck } = useDeckStore();
   
   const [searchTerm, setSearchTerm] = useState("");
+  const [selectedColors, setSelectedColors] = useState([]);
+  const [selectedExpansion, setSelectedExpansion] = useState("All");
+  const [selectedRarity, setSelectedRarity] = useState("All");
   
   // If no deck exists, show create prompt
   if (decks.length === 0) {
@@ -56,22 +61,78 @@ export default function DeckBuilder() {
     return merged;
   }, [collection]);
 
+  const expansions = useMemo(() => {
+    const exps = new Set(ownedCards.map(c => c.expansion_id).filter(Boolean));
+    return Array.from(exps).sort();
+  }, [ownedCards]);
+
+  const rarities = useMemo(() => {
+    const rars = new Set(ownedCards.map(c => c.rarity).filter(Boolean));
+    return Array.from(rars).sort();
+  }, [ownedCards]);
+
   const filteredCollection = useMemo(() => {
     return ownedCards.filter(card => {
+      // 1. Text Search
       if (searchTerm && !card.name.toLowerCase().includes(searchTerm.toLowerCase())) return false;
+      
+      // 2. Expansion Filter
+      if (selectedExpansion !== "All" && card.expansion_id !== selectedExpansion) return false;
+      
+      // 3. Rarity Filter
+      if (selectedRarity !== "All" && card.rarity !== selectedRarity) return false;
+      
+      // 4. Color Filter (OR logic within colors)
+      if (selectedColors.length > 0) {
+        const cardColors = card.attributes?.color || [];
+        // Check if the card has ANY of the selected colors
+        const hasMatchingColor = selectedColors.some(sc => cardColors.includes(sc));
+        if (!hasMatchingColor) return false;
+      }
+      
       return true;
     }).sort((a, b) => a.id.localeCompare(b.id));
-  }, [ownedCards, searchTerm]);
+  }, [ownedCards, searchTerm, selectedExpansion, selectedRarity, selectedColors]);
 
   const addCardToDeck = (card) => {
     if (!activeDeck) return;
     
-    // Check if max copies reached in deck vs collection
     const currentMain = activeDeck.main[card.id] || 0;
     const currentCheer = activeDeck.cheer[card.id] || 0;
     const totalInDeck = (card.id === activeDeck.oshi ? 1 : 0) + currentMain + currentCheer;
     
     if (totalInDeck >= card.maxCount) return; // Can't add more than owned
+
+    // Check base card limit for main deck cards
+    if (card.card_type !== 'Oshi' && card.card_type !== 'Cheer') {
+      const baseNumber = card.id.split('-').slice(0, 2).join('-');
+      const currentMainBaseCount = Object.entries(activeDeck.main || {}).reduce((acc, [id, count]) => {
+        if (id.startsWith(baseNumber)) return acc + count;
+        return acc;
+      }, 0);
+      
+      let hasExtraRule = false;
+      if (card.attributes) {
+        const allText = [
+          ...(card.attributes.abilities || []).map(a => a.description),
+          ...(card.attributes.arts || []).map(a => a.description),
+          ...(card.attributes.oshi_skills || []).map(a => a.description),
+          card.attributes.collab_effect,
+          card.attributes.gift_effect,
+          card.attributes.bloom_effect
+        ].join(' ').toLowerCase();
+        
+        if (allText.includes('any number of this holomem')) {
+          hasExtraRule = true;
+        }
+      }
+
+      // Hardcoded restricted cards if any (like hBP01-030)
+      const RESTRICTED_CARDS = { 'hBP01-030': 1 };
+      const limit = RESTRICTED_CARDS[baseNumber] !== undefined ? RESTRICTED_CARDS[baseNumber] : (hasExtraRule ? 50 : 4);
+      
+      if (currentMainBaseCount >= limit) return; // Enforce limit before adding
+    }
 
     const newDeckData = { ...activeDeck };
     
@@ -176,31 +237,75 @@ export default function DeckBuilder() {
   };
 
   return (
-    <div className="page-container">
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
-        <h1 className="page-title" style={{ marginBottom: 0 }}>Deck Builder</h1>
-        <select 
-          value={activeDeckId || ''} 
-          onChange={e => setActiveDeck(e.target.value)}
-          style={{ padding: '8px 16px', borderRadius: '8px', background: '#18181b', color: 'white', border: '1px solid #3f3f46' }}
-        >
-          {decks.map(d => <option key={d.id} value={d.id}>{d.name}</option>)}
-        </select>
+    <>
+      <div className="deck-ambient-bg">
+        <motion.div 
+          className="blob blob-1"
+          animate={{ x: [0, 100, 0], y: [0, 50, 0], scale: [1, 1.1, 1] }}
+          transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
+        />
+        <motion.div 
+          className="blob blob-2"
+          animate={{ x: [0, -80, 0], y: [0, -60, 0], scale: [1, 1.2, 1] }}
+          transition={{ duration: 25, repeat: Infinity, ease: "easeInOut" }}
+        />
+        <motion.div 
+          className="blob blob-3"
+          animate={{ x: [0, 50, -50, 0], y: [0, 100, 50, 0] }}
+          transition={{ duration: 30, repeat: Infinity, ease: "easeInOut" }}
+        />
       </div>
+
+      <div className="page-container">
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px', flexWrap: 'wrap', gap: '16px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <h1 className="page-title" style={{ marginBottom: 0 }}>Deck Builder</h1>
+            <input 
+              type="text" 
+              value={activeDeck?.name || ''}
+              onChange={(e) => updateDeck(activeDeck.id, { name: e.target.value })}
+              placeholder="Name your Deck"
+              style={{ padding: '8px 16px', borderRadius: '8px', background: '#09090b', color: 'white', border: '1px solid #3f3f46', fontSize: '18px', fontWeight: 'bold' }}
+            />
+          </div>
+          
+          <div style={{ display: 'flex', gap: '12px' }}>
+            <button 
+              className="btn-secondary"
+              onClick={() => createDeck(activeDeck?.name ? `${activeDeck.name} (Copy)` : "New Deck")}
+              style={{ padding: '8px 16px', background: '#27272a', border: '1px solid #3f3f46', borderRadius: '8px', color: 'white', cursor: 'pointer' }}
+            >
+              Save as New
+            </button>
+            <select 
+              value={activeDeckId || ''} 
+              onChange={e => setActiveDeck(e.target.value)}
+              style={{ padding: '8px 16px', borderRadius: '8px', background: '#18181b', color: 'white', border: '1px solid #3f3f46', cursor: 'pointer' }}
+            >
+              <option value="" disabled>Load Deck...</option>
+              {decks.map(d => <option key={d.id} value={d.id}>{d.name}</option>)}
+            </select>
+          </div>
+        </div>
 
       <div className="split-layout">
         {/* Collection Pane */}
         <div className="glass-panel collection-pane">
           <div className="pane-header">
             Collection
-            <input 
-              type="text" 
-              placeholder="Search..." 
-              value={searchTerm}
-              onChange={e => setSearchTerm(e.target.value)}
-              style={{ padding: '6px 12px', borderRadius: '6px', border: '1px solid #3f3f46', background: '#09090b', color: 'white', fontSize: '14px' }}
-            />
           </div>
+          <DeckFilters
+            searchTerm={searchTerm}
+            setSearchTerm={setSearchTerm}
+            selectedColors={selectedColors}
+            setSelectedColors={setSelectedColors}
+            selectedExpansion={selectedExpansion}
+            setSelectedExpansion={setSelectedExpansion}
+            selectedRarity={selectedRarity}
+            setSelectedRarity={setSelectedRarity}
+            expansions={expansions}
+            rarities={rarities}
+          />
           <div className="pane-content" style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', alignContent: 'flex-start' }}>
             {filteredCollection.map(card => (
               <div key={card.id} className="mini-card" onClick={() => addCardToDeck(card)}>
@@ -268,7 +373,7 @@ export default function DeckBuilder() {
         </div>
 
         {/* Deck Pane */}
-        <div className="glass-panel deck-pane">
+        <div className="glass-panel deck-pane" style={{ background: 'rgba(24, 24, 27, 0.6)' }}>
           <div className="pane-header">
             {activeDeck?.name}
             {validation.isValid ? (
@@ -310,5 +415,6 @@ export default function DeckBuilder() {
         </div>
       </div>
     </div>
+    </>
   );
 }

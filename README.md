@@ -23,10 +23,25 @@ El proyecto se encuentra en desarrollo activo, pero ya cuenta con un sistema de 
   - Efectos de sonido (SFX) integrados para botones, desgarro de sobres y revelación de Hits.
   - Interfaz de usuario moderna estilo *Glassmorphism* (cristal esmerilado).
 
+- 🃏 **Constructor de Mazos (Deck Builder):**
+  - Gestión completa de mazos: Crear, nombrar libremente, duplicar ("Save as New") y cargar mazos guardados de forma persistente en `localStorage` (Zustand).
+  - Validación en tiempo real de reglas oficiales (50 cartas en mazo principal, 20 en mazo Cheer, 1 Oshi, máximo 4 copias por carta base).
+  - Lógica especial "Extra": Detección automática de reglas de omisión de límite (permite hasta 50 copias para cartas Debut con la regla "any number of this holomem").
+  - Panel de **Filtros Avanzados**: Toggles visuales de energía/color (Blanco, Verde, Rojo, Azul, Morado, Amarillo, Neutro) con efectos de brillo neón interactivo, selectores glassmorphic de expansión y rareza, y filtrado unificado en tiempo real.
+  - Fondo ambiental animado con orbes de luz asimétricos (Deep/Ice Blue) mediante `framer-motion`.
+
+- 🗂️ **Carpeta de Colección & Playset Overflow (Scrap System):**
+  - Visualización 3D interactiva de la colección de cartas obtenidas.
+  - Sistema de cálculo de exedente (*Playset Overflow*): Etiquetas visuales carmesí estilo glassmorphism (`Scrap: +[X]`) que indican las cartas duplicadas que superan los límites jugables oficiales.
+
+- ⚙️ **Integridad Económica & Scraping:**
+  - Candado de gacha (`obtainable_in_gacha`): Protección matemática que evita que cartas de mazos de inicio o promocionales diluyan las probabilidades de los sobres.
+  - Scripts de Puppeteer (`enrich-card-text.cjs`) para extracción de datos de habilidades y textos de cartas desde la web oficial.
+
 ## 🚀 Próximamente (En Desarrollo)
 
-- **Inventario / Carpeta de Colección:** Un espacio dedicado para ver, ordenar, y filtrar por idols todas las cartas que has conseguido.
-- **Deck Builder:** Herramienta para armar mazos competitivos que respeta las reglas oficiales del juego (Mazo principal de 50 cartas, Mazo de 20 cartas Cheer, máximo de 4 copias de la misma carta, etc).
+- **Sistema de Desguace / Tienda de Canje (Scrap Shop):** Canjear las cartas excedentes (`Scrap`) por polvos o fichas para fabricar cartas específicas.
+- **Simulador de Partidas / Motor de Juego (TCG Battle Engine):** Interfaz para probar los mazos construidos en una mesa de juego interactiva.
 
 ## 🛠️ Instalación y Uso Local
 

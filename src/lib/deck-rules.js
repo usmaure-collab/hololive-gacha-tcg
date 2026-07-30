@@ -35,7 +35,27 @@ export const validateDeck = (deck) => {
   }
   
   for (const [baseNumber, count] of Object.entries(mainCardCounts)) {
-    const limit = RESTRICTED_CARDS[baseNumber] !== undefined ? RESTRICTED_CARDS[baseNumber] : 4;
+    // Find a representative card for this baseNumber to check attributes
+    const sampleCard = cardsData.find(c => c.id.startsWith(baseNumber));
+    let hasExtraRule = false;
+
+    if (sampleCard && sampleCard.attributes) {
+      const allText = [
+        ...(sampleCard.attributes.abilities || []).map(a => a.description),
+        ...(sampleCard.attributes.arts || []).map(a => a.description),
+        ...(sampleCard.attributes.oshi_skills || []).map(a => a.description),
+        sampleCard.attributes.collab_effect,
+        sampleCard.attributes.gift_effect,
+        sampleCard.attributes.bloom_effect
+      ].join(' ').toLowerCase();
+      
+      if (allText.includes('any number of this holomem')) {
+        hasExtraRule = true;
+      }
+    }
+
+    const limit = RESTRICTED_CARDS[baseNumber] !== undefined ? RESTRICTED_CARDS[baseNumber] : (hasExtraRule ? 50 : 4);
+    
     if (count > limit) {
       errors.push(`Cannot have more than ${limit} copies of ${baseNumber}. (Current: ${count})`);
     }

@@ -45,3 +45,48 @@
   text-transform: uppercase;
   font-weight: bold;
 }
+
+/* --- Deck Builder Ambient Background --- */
+.deck-ambient-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* Behind everything */
+  overflow: hidden;
+  background: #09090b;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.blob-1 {
+  width: 60vw;
+  height: 60vw;
+  background: #1e3a8a; /* Deep Blue */
+  top: -10%;
+  left: -10%;
+}
+
+.blob-2 {
+  width: 50vw;
+  height: 50vw;
+  background: #0ea5e9; /* Ice Blue */
+  bottom: -20%;
+  right: -10%;
+}
+
+.blob-3 {
+  width: 40vw;
+  height: 40vw;
+  background: #e0f2fe; /* Soft White/Blue */
+  top: 30%;
+  left: 40%;
+  opacity: 0.3;
+}

@@ -97,7 +97,9 @@ const generateBasePack = (expansionPool, commons, uncommons, cheerCards, drawnId
 };
 
 export const generateSinglePack = (targetExpansionId) => {
-  const expansionPool = cardsData.filter(card => card.expansion_id === targetExpansionId);
+  const expansionPool = cardsData.filter(card => 
+    card.expansion_id === targetExpansionId && card.obtainable_in_gacha !== false
+  );
   if (!expansionPool || expansionPool.length === 0) return [];
 
   let commons = getCardsByExpansionAndRarity(expansionPool, ['C']);
@@ -142,7 +144,9 @@ export const generateSinglePack = (targetExpansionId) => {
 };
 
 export const generateBox = (targetExpansionId) => {
-  const expansionPool = cardsData.filter(card => card.expansion_id === targetExpansionId);
+  const expansionPool = cardsData.filter(card => 
+    card.expansion_id === targetExpansionId && card.obtainable_in_gacha !== false
+  );
   if (!expansionPool || expansionPool.length === 0) return Array(12).fill([]);
 
   let commons = getCardsByExpansionAndRarity(expansionPool, ['C']);

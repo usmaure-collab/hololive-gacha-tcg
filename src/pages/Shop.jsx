@@ -152,43 +152,76 @@ export default function Shop() {
       <div style={{ display: 'flex', flex: 1, marginTop: '24px', gap: '48px', position: 'relative', zIndex: 10 }}>
         
         {/* CAROUSEL */}
-        <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', perspective: '1200px' }}>
-          <div style={{ position: 'relative', width: '280px', height: '392px', transformStyle: 'preserve-3d' }}>
-            <AnimatePresence mode="popLayout">
-              {carouselHits.length > 0 && (
-                <motion.div
-                  key={carouselIndex}
-                  initial={{ rotateY: -90, opacity: 0, scale: 0.8 }}
-                  animate={{ rotateY: 0, opacity: 1, scale: 1 }}
-                  exit={{ rotateY: 90, opacity: 0, scale: 0.8 }}
-                  transition={{ type: "spring", stiffness: 100, damping: 20 }}
-                  style={{
-                    position: 'absolute', top: 0, left: 0, right: 0, bottom: 0,
-                    borderRadius: '16px',
-                    boxShadow: `0 20px 50px ${theme.glowColor}`,
-                    background: '#111',
-                    overflow: 'hidden'
-                  }}
-                >
-                  <img 
-                    src={carouselHits[carouselIndex]?.image_url} 
-                    alt="Chase Hit" 
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
-                  />
-                  <div style={{
-                    position: 'absolute', bottom: 0, left: 0, right: 0, 
-                    padding: '16px', background: 'linear-gradient(transparent, rgba(0,0,0,0.9))',
-                    display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end'
-                  }}>
-                    <span style={{ fontWeight: 'bold', color: theme.accent }}>CHASE CARD</span>
-                    <span style={{ fontWeight: 'bold', background: theme.accent, color: 'black', padding: '2px 8px', borderRadius: '8px' }}>
-                      {carouselHits[carouselIndex]?.rarity}
-                    </span>
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
+        <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '20px' }}>
+          {(() => {
+            if (carouselHits.length === 0) return null;
+            
+            // Calculate 3 distinct indices
+            const idx1 = carouselIndex % carouselHits.length;
+            const idx2 = (carouselIndex + 1) % carouselHits.length;
+            const idx3 = (carouselIndex + 2) % carouselHits.length;
+            
+            const renderCard = (card, position) => {
+              if (!card) return null;
+              const isCenter = position === 'center';
+              const rotationY = position === 'left' ? 25 : position === 'right' ? -25 : 0;
+              const translateY = isCenter ? 0 : 20; // Push side cards down slightly
+              
+              return (
+                <div key={position} style={{ 
+                  position: 'relative', 
+                  width: isCenter ? '260px' : '200px', 
+                  height: isCenter ? '364px' : '280px', 
+                  transformStyle: 'preserve-3d',
+                  transform: `perspective(1000px) rotateY(${rotationY}deg) translateY(${translateY}px)`,
+                  zIndex: isCenter ? 10 : 1,
+                  transition: 'width 0.5s, height 0.5s' // Smooth resize if window changes
+                }}>
+                  <AnimatePresence mode="popLayout">
+                    <motion.div
+                      key={card.id} // Re-animates when card changes
+                      initial={{ rotateY: -90, opacity: 0, scale: 0.8 }}
+                      animate={{ rotateY: 0, opacity: 1, scale: 1 }}
+                      exit={{ rotateY: 90, opacity: 0, scale: 0.8 }}
+                      transition={{ type: "spring", stiffness: 100, damping: 20 }}
+                      style={{
+                        position: 'absolute', top: 0, left: 0, right: 0, bottom: 0,
+                        borderRadius: '16px',
+                        boxShadow: isCenter ? `0 20px 50px ${theme.glowColor}` : '0 10px 30px rgba(0,0,0,0.8)',
+                        background: '#111',
+                        overflow: 'hidden'
+                      }}
+                    >
+                      <img 
+                        src={card.image_url} 
+                        alt="Chase Hit" 
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+                      />
+                      <div style={{
+                        position: 'absolute', bottom: 0, left: 0, right: 0, 
+                        padding: isCenter ? '16px' : '10px', 
+                        background: 'linear-gradient(transparent, rgba(0,0,0,0.9))',
+                        display: 'flex', justifyContent: isCenter ? 'space-between' : 'flex-end', alignItems: 'flex-end'
+                      }}>
+                        {isCenter && <span style={{ fontWeight: 'bold', color: theme.accent, fontSize: '14px', textShadow: '0 2px 4px rgba(0,0,0,0.8)' }}>CHASE CARD</span>}
+                        <span style={{ fontWeight: 'bold', background: theme.accent, color: 'black', padding: '2px 8px', borderRadius: '8px', fontSize: isCenter ? '14px' : '12px' }}>
+                          {card.rarity}
+                        </span>
+                      </div>
+                    </motion.div>
+                  </AnimatePresence>
+                </div>
+              );
+            };
+
+            return (
+              <>
+                {renderCard(carouselHits[idx1], 'left')}
+                {renderCard(carouselHits[idx2], 'center')}
+                {renderCard(carouselHits[idx3], 'right')}
+              </>
+            );
+          })()}
         </div>
 
         {/* PURCHASE PANEL */}

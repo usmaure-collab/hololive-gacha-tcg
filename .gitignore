@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Scraper temporary debug files
+pup_debug.html
+raw_page.html
+sora-dom.txt
+scripts/test_pup.*
+

@@ -3,6 +3,7 @@ import { useInventoryStore } from '../store/useInventoryStore';
 import cardsData from '../data/cards.json';
 import Card3D from '../components/cards/Card3D';
 import { EXPANSIONS, getExpansionName } from '../utils/expansions';
+import { calculateExcess } from '../lib/excess-logic';
 
 export default function Collection() {
   const collection = useInventoryStore(state => state.collection);
@@ -65,9 +66,33 @@ export default function Collection() {
 
       {filteredCards.length > 0 ? (
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '32px', justifyContent: 'center' }}>
-          {filteredCards.map(card => (
-            <Card3D key={card.id} card={card} count={card.count} />
-          ))}
+          {filteredCards.map(card => {
+            const excessCount = calculateExcess(card, card.count);
+            return (
+              <div key={card.id} style={{ position: 'relative' }}>
+                <Card3D card={card} count={card.count} />
+                {excessCount > 0 && (
+                  <div style={{
+                    position: 'absolute',
+                    top: '-10px',
+                    right: '-10px',
+                    background: 'rgba(185, 28, 28, 0.9)', // Deep Crimson
+                    color: '#fef2f2',
+                    padding: '4px 8px',
+                    borderRadius: '12px',
+                    fontSize: '12px',
+                    fontWeight: 'bold',
+                    boxShadow: '0 4px 12px rgba(0,0,0,0.5)',
+                    backdropFilter: 'blur(4px)',
+                    border: '1px solid rgba(252, 165, 165, 0.3)',
+                    zIndex: 10
+                  }}>
+                    Scrap: +{excessCount}
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
       ) : (
         <div className="glass-panel" style={{ padding: '64px', textAlign: 'center', color: '#a1a1aa' }}>
