@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { Coins, LayoutDashboard, ShoppingBag, Layers, Library, RefreshCw } from 'lucide-react';
+import { Coins, LayoutDashboard, ShoppingBag, Layers, Library, RefreshCw, FlaskConical } from 'lucide-react';
 import { usePlayerStore } from '../../store/usePlayerStore';
 import { useInventoryStore } from '../../store/useInventoryStore';
 
@@ -34,6 +34,9 @@ export default function Navbar() {
         </NavLink>
         <NavLink to="/deck-builder" className={({isActive}) => `nav-link ${isActive ? 'active' : ''}`}>
           <Library size={18} /> Deck Builder
+        </NavLink>
+        <NavLink to="/laboratory" className={({isActive}) => `nav-link ${isActive ? 'active' : ''}`}>
+          <FlaskConical size={18} /> Laboratory
         </NavLink>
       </div>
 

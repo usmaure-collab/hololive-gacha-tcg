@@ -4,6 +4,7 @@ import Dashboard from './pages/Dashboard';
 import Shop from './pages/Shop';
 import Collection from './pages/Collection';
 import DeckBuilder from './pages/DeckBuilder';
+import ScrapShop from './pages/ScrapShop';
 import { usePlayerStore } from './store/usePlayerStore';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             <Route path="/shop" element={<Shop />} />
             <Route path="/collection" element={<Collection />} />
             <Route path="/deck-builder" element={<DeckBuilder />} />
+            <Route path="/laboratory" element={<ScrapShop />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>

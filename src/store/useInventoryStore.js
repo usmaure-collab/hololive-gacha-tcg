@@ -18,6 +18,23 @@ export const useInventoryStore = create(
         return { collection: newCollection };
       }),
       
+      addCard: (cardId, amount = 1) => set((state) => {
+        const newCollection = { ...state.collection };
+        if (!newCollection[cardId]) {
+          newCollection[cardId] = { count: 0, shiny: 0 };
+        }
+        newCollection[cardId].count += amount;
+        return { collection: newCollection };
+      }),
+      
+      removeCard: (cardId, amount = 1) => set((state) => {
+        const newCollection = { ...state.collection };
+        if (newCollection[cardId] && newCollection[cardId].count >= amount) {
+          newCollection[cardId].count -= amount;
+        }
+        return { collection: newCollection };
+      }),
+      
       addBox: (expansionId, packsArray) => set((state) => {
         const currentBoxes = state.activeBoxes[expansionId] || [];
         return {

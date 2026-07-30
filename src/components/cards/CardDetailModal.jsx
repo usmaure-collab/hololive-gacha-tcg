@@ -1,8 +1,43 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import useSound from 'use-sound';
+import { useEconomyStore, getRatesForRarity } from '../../store/useEconomyStore';
+import { useInventoryStore } from '../../store/useInventoryStore';
 
 export default function CardDetailModal({ card, onClose }) {
+  const holoShards = useEconomyStore(state => state.holoShards);
+  const addShards = useEconomyStore(state => state.addShards);
+  const spendShards = useEconomyStore(state => state.spendShards);
+  
+  const getCardCount = useInventoryStore(state => state.getCardCount);
+  const addCard = useInventoryStore(state => state.addCard);
+  const removeCard = useInventoryStore(state => state.removeCard);
+
   if (!card) return null;
+
+  const count = getCardCount(card.id);
+  const rates = getRatesForRarity(card.rarity);
+
+  const [playShatter] = useSound('/sounds/shatter.mp3', { volume: 0.5 });
+  const [playCraft] = useSound('/sounds/craft-sparkle.mp3', { volume: 0.5 });
+
+  const handleDismantle = () => {
+    if (count > 0) {
+      playShatter();
+      removeCard(card.id, 1);
+      addShards(rates.dismantle);
+    }
+  };
+
+  const handleCraft = () => {
+    if (spendShards(rates.craft)) {
+      playCraft();
+      addCard(card.id, 1);
+    } else {
+      alert("Insufficient Holo Shards!");
+    }
+  };
+
 
   // Dynamic Color Tag mapping
   const getColorStyle = (colorName) => {
@@ -131,11 +166,50 @@ export default function CardDetailModal({ card, onClose }) {
               ))}
             </div>
 
-            <div style={{ background: 'rgba(0,0,0,0.2)', padding: '20px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)', minHeight: '150px' }}>
+            <div style={{ background: 'rgba(0,0,0,0.2)', padding: '20px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)', minHeight: '150px', marginBottom: '24px' }}>
               <h3 style={{ margin: '0 0 12px 0', fontSize: '16px', color: '#a1a1aa', textTransform: 'uppercase', letterSpacing: '1px' }}>Card Effect</h3>
               <p style={{ margin: 0, fontSize: '16px', lineHeight: '1.6', whiteSpace: 'pre-wrap' }}>
                 {card.attributes?.text || "No effect."}
               </p>
+            </div>
+
+            {/* Economy Actions */}
+            <div style={{ display: 'flex', gap: '16px', marginTop: 'auto', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '24px' }}>
+              <div style={{ flex: 1, background: 'rgba(0,0,0,0.3)', padding: '16px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center' }}>
+                <div style={{ fontSize: '14px', color: '#a1a1aa', marginBottom: '8px' }}>Owned: {count}</div>
+                <button 
+                  onClick={handleDismantle}
+                  disabled={count <= 0}
+                  style={{
+                    width: '100%', padding: '12px', borderRadius: '8px', border: 'none',
+                    background: count > 0 ? 'rgba(220, 38, 38, 0.2)' : 'rgba(255,255,255,0.05)',
+                    color: count > 0 ? '#fca5a5' : '#52525b',
+                    cursor: count > 0 ? 'pointer' : 'not-allowed',
+                    fontWeight: 'bold', transition: 'all 0.2s',
+                    border: count > 0 ? '1px solid rgba(220, 38, 38, 0.5)' : '1px solid transparent'
+                  }}
+                >
+                  Dismantle (+{rates.dismantle} Shards)
+                </button>
+              </div>
+
+              <div style={{ flex: 1, background: 'rgba(0,0,0,0.3)', padding: '16px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center' }}>
+                <div style={{ fontSize: '14px', color: '#a1a1aa', marginBottom: '8px' }}>Cost: {rates.craft} Shards</div>
+                <button 
+                  onClick={handleCraft}
+                  disabled={holoShards < rates.craft}
+                  style={{
+                    width: '100%', padding: '12px', borderRadius: '8px', border: 'none',
+                    background: holoShards >= rates.craft ? 'rgba(59, 130, 246, 0.2)' : 'rgba(255,255,255,0.05)',
+                    color: holoShards >= rates.craft ? '#93c5fd' : '#52525b',
+                    cursor: holoShards >= rates.craft ? 'pointer' : 'not-allowed',
+                    fontWeight: 'bold', transition: 'all 0.2s',
+                    border: holoShards >= rates.craft ? '1px solid rgba(59, 130, 246, 0.5)' : '1px solid transparent'
+                  }}
+                >
+                  Craft Card
+                </button>
+              </div>
             </div>
 
           </div>
